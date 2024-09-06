@@ -1,1 +1,11 @@
 arquivo criado apenas para que a visualização da árvore de pastas e arquivos sejam visualizados no formato cascata.
+
+verificando a alteração da origem e para alterar a origem devemos:
+    1- verificar a origem atual
+        git remote -v
+    
+    2- alterar a origem com o comando:
+        git remotte set-url origin "url da origem"
+
+    3- confirmar a alteração da origem
+        git remote -v
